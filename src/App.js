@@ -7,6 +7,8 @@ import Header from './Components/Header';
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact';
+import Article from './Pages/Article';
+
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/article" element={<Article />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

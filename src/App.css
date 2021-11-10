@@ -12,3 +12,11 @@
       transform: rotate(360deg);
     }
   }
+  .screen{
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+  }
+  .testDiv{
+     text-align: center;
+  }

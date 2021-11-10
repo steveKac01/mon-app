@@ -14,6 +14,8 @@ const Header = () => {
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            </li><li class="nav-item">
+                                <a class="nav-link" href="/article">Article</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/gallery">Gallery</a>
