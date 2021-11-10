@@ -7,14 +7,22 @@ import Header from './Components/Header';
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Gallery />
-      <Contact />
+      <BrowserRouter>
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+      </BrowserRouter>
+
       <Footer />
     </div>
   );
