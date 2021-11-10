@@ -15,10 +15,10 @@
       transform: rotate(360deg);
     }
   }
-  
+
   .screen{
     border: solid 2px;
-    border-color: rgb(0, 0, 0);
+    border-color: var(--txtcolor);
     margin-bottom: 10px;
   }
  
@@ -27,4 +27,10 @@
 
     text-align: center;
     color: var(--txtcolor);
+  }
+  .img-gallery{
+    transition: transform .4s;
+  }
+  .img-gallery:hover{
+    transform: scale(1.1);
   }
