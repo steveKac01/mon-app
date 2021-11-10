@@ -7,9 +7,10 @@ const Gallery = () => {
           <div className="row"><h1 > Gallery</h1></div>
          
           <div className="row">
-            <div className="col-8 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
-            <div className="col-8 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
-            <div className="col-8 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
+            <div className="col-5 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
+            <div className="col-5 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
+            <div className="col-5 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
+            <div className="col-5 col-md-6"><img className="screen" src="https://www.jeuxvideo-live.com/screens/elden-ring/e32tkuuxoam89r-1623682753.jpg" width="100%"></img></div>
             
             
             <div className="col-12 col-md-6">
