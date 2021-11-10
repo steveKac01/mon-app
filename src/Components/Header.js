@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import logo from '../Img/logo.svg';
 
 const Header = () => {
     return (
@@ -27,10 +27,7 @@ const Header = () => {
 
             </nav>
         </header>
-
     )
-
-
 }
 
 export default Header
